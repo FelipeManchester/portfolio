@@ -1,70 +1,380 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Manchester - Dev Front End</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/aos.css" />
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container flex-lg-column">
-        <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#"
-          ><span class="h3 fw-bold d-block d-lg-none">Felipe Manchester</span
-          ><img
-            src="./assets/images/felipe.png"
-            alt="Foto de Felipe Manchester"
-            class="d-none d-lg-block rounded-circle"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#services"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#work"
-                >Projetos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about"
-                >Sobre mim</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact"
-                >Contato</a
-              >
-            </li>
-          </ul>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <!-- <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Felipe Manchester</span>
+                <img src="./assets/images/felipe1.jpg" class="d-none d-lg-block" alt="Foto de Felipe">
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mim</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li> -->
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <script src="./assets/scripts/aos.js"></script>
-    <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
-    <script src="./assets/scripts/main.js"></script>
-  </body>
+    <div id="content-wrapper">
+
+
+        <section id="home" class="full-height px-lg-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">Olá, sou o Felipe! 😀<span class="text-brand">
+                                Desenvolvedor
+                                Front End</span></h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Tenho 29 anos, moro
+                            em Campos - RJ e estou em transição de carreira, quero trabalhar com tecnologia e
+                            programação. Possuo <u>dez</u> anos de experiência com vendas, atendimento ao público,
+                            liderança e
+                            trabalho em equipe, tendo passagem por duas grandes empresas do setor farmacêutico.</p>
+                        <div data-aos="fade-up" data-aos-delay="600" class="d-flex justify-content-center">
+                            <a href="#work" class="btn btn-brand me-3">Veja meus projetos <i
+                                    class="fa-sharp fa-solid fa-pen"></i></a>
+                            <a href="./Felipe Manchester.pdf" download="Cúrriculo-Felipe-Manchester"
+                                class="btn btn-brand me-3">Baixar
+                                cúrriculo <i class="fa-solid fa-download"></i></a>
+                            <p class="mt-3">Me chame no<a
+                                    href="https://api.whatsapp.com/send/?phone=5522997264111&type=phone_number&app_absent=0"
+                                    target="_blank">
+                                    whatsapp</a> ou no <a href="https://t.me/felipemanchester"
+                                    target="_blank">telegram</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">Minha stack</h6>
+                        <h2>Atualmente tenho conhecimento nessas linguagens:</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">HTML5</h5>
+                            <p>Construção de sites utilizando uma estrutura clara e semântica</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">CSS</h5>
+                            <p>Estilização e responsividade de toda a aplicação</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-brands fa-square-js"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">JavaScript</h5>
+                            <p>Manipulação da página melhorando a experiência do usuário</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">ReactJS</h5>
+                            <p>Criação de aplicações web completas no modelo de SPA</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-brands fa-bootstrap"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Bootstrap</h5>
+                            <p>Criação de um site amigável utilizando esse framework</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Firebase</h5>
+                            <p>Conectividade com o banco de dados do Google</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="work" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">Projetos</h6>
+                        <h2>Meus trabalhos recentes:</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/project-1.png" alt="Projeto 1">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Galaxy</h4>
+                                <p>Conheça o Galaxy, um miniblog onde você pode compartilhar suas fotos favoritas
+                                    relacionadas ao universo. Feito com React no front end e Firebase no back end.
+                                </p>
+                                <a href="https://galaxy-star.vercel.app/" target="_blank" class="link-custom">Demo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/project-2.png" alt="Projeto 2">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Palavra Misteriosa</h4>
+                                <p>Esse foi o meu primeiro projeto utilizando o ReactJS. Se trata de um mini-game onde o
+                                    objetivo é adivinhar as palavras de acordo com o tema fornecido.</p>
+                                <a href="https://felipemanchester.github.io/mysterious-word/" target="_blank"
+                                    class="link-custom">Demo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/project-3.png" alt="Projeto 3">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>DoctorCare</h4>
+                                <p>O meu segundo projeto feito com HTML, CSS e JavaScript baseado em
+                                    uma aula do Mayk Brito (Rocketseat). O objetivo era criar uma landing page para uma
+                                    clínica médica fictícia.</p>
+                                <a href="https://felipemanchester.github.io/DoctorCare/" target="_blank"
+                                    class="link-custom">Demo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/project-4.png" alt="Projeto 4">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>BeautySalon</h4>
+                                <p>Esse foi o meu primeiro projeto feito com HTML, CSS e JavaScript, com base em
+                                    uma aula do Mayk Brito (Rocketseat). O objetivo era criar uma landing page fictícia
+                                    para um salão de beleza.</p>
+                                <a href="https://felipemanchester.github.io/Beautysalon/" target="_blank"
+                                    class="link-custom">Demo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">Sobre mim</h6>
+                        <h2>Formação & Experiência</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Formação</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                                    <p class="text-brand mb-2">Universidade Norte do Paraná - Cursando (dez/23)</p>
+                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
+                                        consectetur adipisicing elit</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>freeCodeCamp</h4>
+                                    <p class="text-brand mb-2">Responsive Web Design</p>
+                                    <p class="mb-0">Emitido em jun/2022</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>freeCodeCamp</h4>
+                                    <p class="text-brand mb-2">JavaScript Algorithms and Data Structures</p>
+                                    <p class="mb-0">Emitido em ago/2022</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experiência</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Desenvolvedor Front End</h4>
+                                    <p class="text-brand mb-2">Freelancer (2022 - presente)</p>
+                                    <p class="mb-0">Criação de sites utilizando as linguagens atuais para entregar um
+                                        projeto final responsivo e moderno.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Gerente de loja</h4>
+                                    <p class="text-brand mb-2">Drogaria Cesar (2018 - presente)</p>
+                                    <p class="mb-0">loja loja loja </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Gerente de loja</h4>
+                                    <p class="text-brand mb-2">Farmácias Pague Menos (2013 - 2017)</p>
+                                    <p class="mb-0">loja loja loja</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- 
+        <section id="blog" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">BLOG</h6>
+                        <h2>Meus artigos</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/" alt="blog">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">20 Dec, 2022</p>
+                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                <a href="https://medium.com/@f.p2809/primeiro-post-57fe7abdbb52" target="_blank"
+                                    class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section> -->
+
+
+
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Feito por <a href="https://www.linkedin.com/in/felipemanchester" target="_blank"
+                                class="fw-bold">Felipe Manchester</a></p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/felipe.manchester" target="_blank"><i
+                                    class="lab la-instagram"></i></a>
+                            <a href="https://www.github.com/felipemanchester" target="_blank"><i
+                                    class="lab la-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/0f34d6c877.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
